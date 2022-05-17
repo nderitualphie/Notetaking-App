@@ -1,0 +1,18 @@
+[
+    {
+        "merged": "/home/alphie/StudioProjects/app1/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/home/alphie/.gradle/caches/transforms-3/e230b056e737dd64e7b998432077ddc0/transformed/core-1.6.0/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/home/alphie/StudioProjects/app1/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/home/alphie/.gradle/caches/transforms-3/e230b056e737dd64e7b998432077ddc0/transformed/core-1.6.0/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/home/alphie/StudioProjects/app1/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/home/alphie/.gradle/caches/transforms-3/e230b056e737dd64e7b998432077ddc0/transformed/core-1.6.0/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/home/alphie/StudioProjects/app1/build/path_provider_android/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/home/alphie/.gradle/caches/transforms-3/e230b056e737dd64e7b998432077ddc0/transformed/core-1.6.0/res/drawable/notification_bg_low.xml"
+    }
+]
