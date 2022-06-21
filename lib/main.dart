@@ -29,7 +29,7 @@ void main() {
         child: const Homepage(),
       ),
       routes: {
-        createOrUpdateNoteRoute: (context) => const CreateUpdateNoteView(),
+        "/createOrUpdateNoteRoute/": (context) => const CreateUpdateNoteView(),
       },
     ),
   );

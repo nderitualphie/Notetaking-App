@@ -1,4 +1,5 @@
 {
     "dart.flutterHotReloadOnSave": "always",
-    "dart.hotReloadOnSave": "always"
+    "dart.hotReloadOnSave": "always",
+    "cmake.configureOnOpen": false
 }

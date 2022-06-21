@@ -1,2 +1,0 @@
-
-const createOrUpdateNoteRoute = '/NewNote/';

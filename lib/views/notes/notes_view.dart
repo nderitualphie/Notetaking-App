@@ -1,14 +1,13 @@
 import 'package:app1/services/auth/auth_service.dart';
 import 'package:app1/services/auth/bloc/auth_bloc.dart';
 import 'package:app1/services/auth/bloc/auth_event.dart';
-import 'package:app1/services/auth/bloc/auth_state.dart';
 import 'package:app1/services/cloud/cloud_note.dart';
 import 'package:app1/services/cloud/firebase_cloud_storage.dart';
 import 'package:app1/utilities/dialogs/logout_dialog.dart';
 import 'package:app1/views/notes/notes_list_view.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
-import '../../constants/routes.dart';
+
 import '../../enums/menu_action.dart';
 
 class NotesView extends StatefulWidget {
@@ -35,7 +34,7 @@ class _NotesViewState extends State<NotesView> {
           actions: [
             IconButton(
                 onPressed: (() {
-                  Navigator.of(context).pushNamed(createOrUpdateNoteRoute);
+                  Navigator.of(context).pushNamed("/createOrUpdateNoteRoute/");
                 }),
                 icon: const Icon(Icons.add)),
             PopupMenuButton<MenuAction>(onSelected: ((value) async {
@@ -71,7 +70,8 @@ class _NotesViewState extends State<NotesView> {
                             documentid: note.documentid);
                       },
                       onTap: (note) {
-                        Navigator.of(context).pushNamed(createOrUpdateNoteRoute,
+                        Navigator.of(context).pushNamed(
+                            "/createOrUpdateNoteRoute/",
                             arguments: note);
                       },
                     );
